@@ -1,0 +1,23 @@
+
+
+<title>Results</title>
+<!-- Required meta tags -->
+<div class = "results">
+  <body background ="/static/feedme.png" class="img-fluid" alt="Responsive image">
+</div>
+<h1 id = list>Restaurant List</h1>
+<div class = "box" box-align center>
+
+
+    {{#each results}}
+      <li>
+          <a href="/restaurant/{{id}}">{{name}}</a>
+        {{address}}&nbsp{{category}}
+      </li>
+    {{/each}}
+  </ul>
+
+</div>
+
+    <p>
+</body>
